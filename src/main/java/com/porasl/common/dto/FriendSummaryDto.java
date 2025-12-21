@@ -1,8 +1,5 @@
 package com.porasl.common.dto;
 
-import lombok.Builder;
-
-@Builder
 public record FriendSummaryDto(
 		Long connectionId,
         String email,
